@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="732dp"
+        android:layout_height="159dp"
+        android:layout_marginBottom="769dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/background_bottom"
+        tools:layout_editor_absoluteX="-161dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/box2"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Data Barang"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="20dp"
+        android:hint="Nama Barang"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Harga Beli"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Harga Jual"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Jenis"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Gudang"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="375dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Stock"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:text="Simpan"
+        android:background="@drawable/button_background"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="608dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/scan"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

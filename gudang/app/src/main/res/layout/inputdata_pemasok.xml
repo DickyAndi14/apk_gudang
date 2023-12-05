@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="724dp"
+        android:layout_height="194dp"
+        android:layout_marginBottom="752dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/background_bottom"
+        tools:layout_editor_absoluteX="-157dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/box2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Data Pemasok"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nama"
+        android:padding="20dp"
+        android:background="@drawable/edittextbarang_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="110dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText22"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Jenis"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/editTextText23"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Gudang"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edittextbarang_background"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="Simpan"
+        android:background="@drawable/button_background"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="441dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

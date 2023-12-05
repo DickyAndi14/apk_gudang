@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="332dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/button_background" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Barang"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginLeft="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barang Masuk"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginLeft="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="-289dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Pelanggan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="129dp"/>
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="47dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barang Keluar"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="146dp"/>
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="-289dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="270dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Data Pemasok"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="92dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="47dp"
+                app:srcCompat="@drawable/button_background"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCAN"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="308dp"/>
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="55dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="308dp"
+                android:layout_marginTop="-100sp"
+                app:srcCompat="@drawable/baseline_qr_code_scanner_24" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="66dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="-57dp"
+                app:srcCompat="@drawable/baseline_arrow_circle_down_24" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="59dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="308dp"
+                android:layout_marginTop="-225dp"
+                app:srcCompat="@drawable/baseline_assignment_24" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="53dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="-64sp"
+                android:layout_marginStart="169dp"
+                app:srcCompat="@drawable/baseline_view_comfy_24" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-60dp"
+                android:layout_marginStart="36dp"
+                app:srcCompat="@drawable/warehouse" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="154dp"
+                android:layout_height="148dp"
+                android:layout_marginTop="-290sp"
+                android:layout_marginStart="210sp"
+                app:srcCompat="@drawable/box2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome,"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="-125dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="-1dp"
+                android:text="ADMIN" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="70dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="297sp"
+                app:srcCompat="@drawable/baseline_arrow_circle_up_24" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
