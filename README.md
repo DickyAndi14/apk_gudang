@@ -1,6 +1,9 @@
 # apk_gudang
  apk ini merupakan apk yang dirancang untuk mempermudah suatu penaataan barang digudang, dimana jaman yg sudah modern saat ini deperlukan kecepatan dan ketepatan dalam perthitungan suatu barang, oleh sebab itu kami kelompok 9 membuat aplikasi ini
 
+ ![pamflet pemob](https://github.com/DickyAndi14/apk_gudang/assets/71749211/9181f11b-4ba8-4de2-985c-fb788c761ae5)
+
+
 # Fitur_Aplikasi
 1. Kemudahan dalam scan barang sehingga tidak perlu menginputkan barang secara manual
 2. bisa mengetahui jenis, tanggal dan barang yang masuk dan keluar melalui aplikasi
