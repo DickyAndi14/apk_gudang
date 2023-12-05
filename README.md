@@ -13,6 +13,6 @@ Dimas Adiz Setiawan (22050974088)
 Eka Yunizar Zaimatus Sa’diyah (22050974089)
 Dicky Andi Soffan (22050974093)
 
-Program Studi S1 Pendidikan Teknologi Informasi 2022
-Fakultas Teknik
-Universitas Negeri Surabaya
+https://pendidikan-ti.ft.unesa.ac.id/ 
+https://ft.unesa.ac.id/
+https://www.unesa.ac.id/
